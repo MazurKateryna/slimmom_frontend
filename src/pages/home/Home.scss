@@ -1,0 +1,25 @@
+.Wrapper {
+  padding-top: 30px;
+  padding-bottom: 80px;
+
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media (min-width: 768px) {
+  .Wrapper {
+    background-image: url(../../assets/images/homaPage/tablet.jpg);
+    padding-top: 150px;
+    padding-bottom: 300px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .Wrapper {
+    padding-top: 194px;
+    padding-bottom: 45px;
+    background-image: url(../../assets/images/homaPage/desktop.jpg);
+  }
+}

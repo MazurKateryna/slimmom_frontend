@@ -1,0 +1,35 @@
+.pageContainer {
+  padding: 30px 15px 0 15px;
+  margin: 0 auto;
+  width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .pageContainer {
+    display: inline-block;
+    width: 768px;
+    min-height: 944px;
+    padding: 100px 0 0 87px;
+    position: relative;
+    margin: 0 auto;
+
+  }
+  .bgContainer {
+    background-image: url('../../assets/images/homaPage/tablet.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .pageContainer {
+    width: 1280px;
+    min-height: 695px;
+    padding: 144px 0 0 115px;
+  }
+  .bgContainer {
+    background-image: url('../../assets/images/homaPage/desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}
